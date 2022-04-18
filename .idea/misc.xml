@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/alexx/AndroidStudioProjects/UniAPI/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/alexx/AndroidStudioProjects/UniAPI/app/src/main/res/layout/activity_show_unis.xml" value="0.358695652173913" />
         <entry key="..\:/Users/alexx/AndroidStudioProjects/UniAPI/app/src/main/res/layout/country_unis.xml" value="0.358695652173913" />
         <entry key="..\:/Users/alexx/AndroidStudioProjects/UniAPI/app/src/main/res/layout/fragment_country_unis.xml" value="0.358695652173913" />
         <entry key="..\:/Users/alexx/AndroidStudioProjects/UniAPI/app/src/main/res/layout/row_items.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/alexx/AndroidStudioProjects/UniAPI/app/src/main/res/layout/uni_row_items.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>

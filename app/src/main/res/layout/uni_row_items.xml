@@ -33,16 +33,10 @@
                     android:id="@+id/uni_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/country_name"
+                    android:text="@string/university_name"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/country_button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/show_unis" />
 
 
             </LinearLayout>

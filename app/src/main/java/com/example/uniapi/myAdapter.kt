@@ -1,6 +1,5 @@
 package com.example.uniapi
 
-import android.app.ProgressDialog.show
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.RecyclerView
 
 class myAdapter(val context: Context, val countryList: List<CountriesItem>): RecyclerView.Adapter<myAdapter.ViewHolder>() {
@@ -18,7 +16,7 @@ class myAdapter(val context: Context, val countryList: List<CountriesItem>): Rec
         var countryButton: Button
 
         init {
-            countryName = itemView.findViewById(R.id.country_name)
+            countryName = itemView.findViewById(R.id.uni_name)
             countryButton = itemView.findViewById(R.id.country_button)
         }
 

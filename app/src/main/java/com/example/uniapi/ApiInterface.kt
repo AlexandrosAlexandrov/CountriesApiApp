@@ -7,4 +7,7 @@ interface ApiInterface {
 
     @GET("all")
     fun getData(): Call<List<CountriesItem>>
+
+    @GET("search")
+    fun getUnis(): Call<List<CountryUnisItem>>
 }
