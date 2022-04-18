@@ -1,13 +1,17 @@
 package com.example.uniapi
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+
+const val country = "Greece"
 
 class myAdapter(val context: Context, val countryList: List<CountriesItem>): RecyclerView.Adapter<myAdapter.ViewHolder>() {
 
@@ -31,6 +35,9 @@ class myAdapter(val context: Context, val countryList: List<CountriesItem>): Rec
         holder.countryName.text = countryList[position].name.common
         holder.countryButton.setOnClickListener{
             Toast.makeText(context, "Clicked "+holder.countryName.text, Toast.LENGTH_SHORT).show()
+            val intent = Intent(context, show_unis::class.java).apply { putExtra(country, holder.countryName.text) }
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            context.startActivity(intent)
         }
     }
 

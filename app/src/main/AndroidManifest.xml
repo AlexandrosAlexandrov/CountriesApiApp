@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.UniAPI">
+        android:theme="@style/Theme.UniAPI"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".show_unis"
             android:exported="false" />
@@ -22,6 +23,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
